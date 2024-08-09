@@ -1,0 +1,19 @@
+[2024-08-08 22:58:52] [ ERROR] [VeterinarioDaoH2Test:28] [cargarTablas] Syntax error in SQL statement "\000d\000a\000d\000aCREATE TABLE VETERINARIOS (\000d\000aID INT AUTO_INCREMENT PRIMARY KEY,\000d\000aNRO_LICENCIA VARCHAR(50) NOT NULL,\000d\000aNOMBRE VARCHAR(50) NOT NULL,\000d\000aAPELLIDO VARCHAR(50) NOT NULL,\000d\000aESPECIALIDAD VARCHAR(50) NOT NULL,\000d\000a[*])"; expected "identifier"; SQL statement:
+
+
+CREATE TABLE VETERINARIOS (
+ID INT AUTO_INCREMENT PRIMARY KEY,
+NRO_LICENCIA VARCHAR(50) NOT NULL,
+NOMBRE VARCHAR(50) NOT NULL,
+APELLIDO VARCHAR(50) NOT NULL,
+ESPECIALIDAD VARCHAR(50) NOT NULL,
+) [42001-230]
+[2024-08-08 23:00:09] [ INFO ] [VeterinarioDaoH2:35] [guardar] Veterinario: Veterinario{id=2, numeroLicencia='ajshdjh', nombre='Luciana', apellido='perez', especialidad='cirujano'}
+[2024-08-08 23:00:09] [ INFO ] [VeterinarioDaoH2:81] [buscarTodos] Veterinario{id=1, numeroLicencia='AE700OP', nombre='CRISTIAN', apellido='CRISTALDO', especialidad='CIRUJANO'}
+[2024-08-08 23:00:09] [ INFO ] [VeterinarioDaoH2:81] [buscarTodos] Veterinario{id=2, numeroLicencia='ajshdjh', nombre='Luciana', apellido='perez', especialidad='cirujano'}
+[2024-08-08 23:04:53] [ INFO ] [VeterinarioDaoH2:35] [guardar] Veterinario: Veterinario{id=2, numeroLicencia='ajshdjh', nombre='Luciana', apellido='perez', especialidad='cirujano'}
+[2024-08-08 23:06:25] [ INFO ] [VeterinarioDaoH2:35] [guardar] Veterinario: Veterinario{id=2, numeroLicencia='ajshdjh', nombre='Luciana', apellido='perez', especialidad='cirujano'}
+[2024-08-08 23:12:39] [ INFO ] [VeterinarioDaoH2:35] [guardar] Veterinario: Veterinario{id=2, numeroLicencia='ajshdjh', nombre='Luciana', apellido='perez', especialidad='cirujano'}
+[2024-08-08 23:16:04] [ INFO ] [VeterinarioDaoH2:35] [guardar] Veterinario: Veterinario{id=2, numeroLicencia='ajshdjh', nombre='Luciana', apellido='perez', especialidad='cirujano'}
+[2024-08-08 23:16:04] [ INFO ] [VeterinarioDaoH2:81] [buscarTodos] Veterinario{id=1, numeroLicencia='AE700OP', nombre='CRISTIAN', apellido='CRISTALDO', especialidad='CIRUJANO'}
+[2024-08-08 23:16:04] [ INFO ] [VeterinarioDaoH2:81] [buscarTodos] Veterinario{id=2, numeroLicencia='ajshdjh', nombre='Luciana', apellido='perez', especialidad='cirujano'}
